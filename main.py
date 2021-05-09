@@ -1,15 +1,17 @@
 import random
 import re
 import time
-# something
 
 from quantiphy import Quantity as Qty
 
 
+# something 000
+
+
 def converted(a):
-    #check if a, the INPUT STRING, is a (float)number OR any other string(non-number)
-    #if it is a string, return False
-    #for number return True
+    # check if a, the INPUT STRING, is a (float)number OR any other string(non-number)
+    # if it is a string, return False
+    # for number return True
 
     try:
         number = float(a)
@@ -18,7 +20,7 @@ def converted(a):
             # TODO also check if number isn't big/small enough not to fit in a float
             print(type(number))
             return number
-    except ValueError as my_except:    # or is it TypeError
+    except ValueError as my_except:  # or is it TypeError
         # print('My exception:', my_except, type(my_except))
         # print("It is possible that the number is not a float")
         return False
@@ -201,7 +203,7 @@ def start_game(prbl_list):
         # todo: check what re,compile and findall do and comment it stupido
         # re.compile: this regex would help you to find all the scientific notation in the text.
 
-        match_number = re.compile('-?\ *[0-9]+\.?[0-9]*(?:[Ee]\ *-?\ *[0-9]+)?')
+        match_number = re.compile('-? *[0-9]+\.?[0-9]*(?:[Ee] *-? *[0-9]+)?')
         curated_nr = [float(x) for x in re.findall(match_number, input_str)]
 
         #print('your curated answer is:', curated_nr[0])
