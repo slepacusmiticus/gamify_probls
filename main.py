@@ -5,7 +5,7 @@ import time
 from quantiphy import Quantity as Qty
 
 
-# something 000
+# something
 
 
 def converted(a):
@@ -203,7 +203,7 @@ def start_game(prbl_list):
         # todo: check what re,compile and findall do and comment it stupido
         # re.compile: this regex would help you to find all the scientific notation in the text.
 
-        match_number = re.compile('-? *[0-9]+\.?[0-9]*(?:[Ee] *-? *[0-9]+)?')
+        match_number = re.compile('-?\ *[0-9]+\.?[0-9]*(?:[Ee]\ *-?\ *[0-9]+)?')
         curated_nr = [float(x) for x in re.findall(match_number, input_str)]
 
         #print('your curated answer is:', curated_nr[0])
