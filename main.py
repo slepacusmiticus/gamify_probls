@@ -8,9 +8,6 @@ from quantiphy import Quantity as Qty
 # ssssssss
 
 
-# something
-
-
 def converted(a):
     # check if a, the INPUT STRING, is a (float)number OR any other string(non-number)
     # if it is a string, return False
