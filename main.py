@@ -251,4 +251,7 @@ def start_game(prbl_list):
     # todo: fix problem5 = don't show the results!
     #todo: set the hints/formulas
 
-start_game(prbl_list)
+
+
+if __name__ == "__main__":
+    start_game(prbl_list)
