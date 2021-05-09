@@ -111,10 +111,13 @@ def problem4():
 
     return result_4
 
+
 # ############ Game START
 # Force the problem chosen to be a particular one
-#prbl_list=('problem4()', 'problem4()')
-prbl_list=('problem5()', 'problem5()')
+prbl_list = ('pr.problem4()', 'problem4()')
+
+
+# prbl_list=('problem5()', 'problem5()')
 
 # the real list, to be updated with other problems
 # prbl_list=('problem4()', 'problem5()')
