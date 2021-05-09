@@ -2,8 +2,7 @@ import random
 import re
 import time
 
-# sehjdkvlb
-# hdxtdfgcjh
+# sehjd
 from quantiphy import Quantity as Qty
 
 
